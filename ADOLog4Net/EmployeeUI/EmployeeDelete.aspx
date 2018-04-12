@@ -13,7 +13,6 @@
         <div class="container">
             <div class="jumbotron  ">
                 <div class="row">
-
                     <div class="form-group">
                         <div class="btn-group btn-group-lg col-lg-12 " role="group">
                             <asp:Button ID="btnInsert" CssClass="btn btn-primary col-lg-3" runat="server" Text="INSERT" BorderStyle="Double" Font-Bold="True" OnClick="btnInsert_Click" />
@@ -22,7 +21,6 @@
                             <asp:Button ID="btnDisplay" CssClass="btn btn-primary col-lg-3" runat="server" Text="DISPLAY" BorderStyle="Double" Font-Bold="True" OnClick="btnDisplay_Click" />
                         </div>
                     </div>
-
                     <div class="form-group ">
                         <asp:Label CssClass="col-lg-4 control-label" ID="Label1" runat="server" Text="Select ID To Delete"></asp:Label>
                         &nbsp;<div class="col-lg-2">
@@ -31,7 +29,6 @@
                         </div>
                         &nbsp;<asp:Button CssClass="btn btn-primary" ID="Button1" runat="server" OnClick="Button1_Click1" Text="Select" />
                     </div>
-
                     <div class="form-group ">
                         <asp:Label CssClass="col-lg-4 control-label" ID="Label2" runat="server" Text="EmployeeID:-"></asp:Label>
                         <asp:Label CssClass="col-lg-4 control-label" ID="empid" runat="server"></asp:Label>

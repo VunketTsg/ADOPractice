@@ -13,10 +13,6 @@
         <div class="container">
             <div class="jumbotron  ">
                 <div class="row">
-
-
-
-
                     <div class="form-group">
                         <div class="btn-group btn-group-lg col-lg-12 " role="group">
                             <asp:Button ID="btnInsert" CssClass="btn btn-primary col-lg-3" runat="server" Text="INSERT" BorderStyle="Double" Font-Bold="True" OnClick="btnInsert_Click" />

@@ -21,10 +21,8 @@
                         <asp:Button ID="btnDisplay" CssClass="btn btn-primary col-lg-3" runat="server" Text="DISPLAY" BorderStyle="Double" Font-Bold="True" OnClick="btnDisplay_Click" />
                     </div>
                 </div>
-
                 <asp:Button ID="DsplyEmp" CssClass="btn btn-success" runat="server" OnClick="DsplyEmp_Click" Text="DisplayEmployees" />
                 <br />
-
                 <div class="form-group">
                     <asp:Label ID="Label6" CssClass="col-lg-4 control-label" runat="server" Text="Search By City:-"></asp:Label>
                     <div class="col-lg-2">

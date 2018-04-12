@@ -25,9 +25,7 @@
             <asp:TextBox ID="TextBox2" CssClass="form-control" runat="server"></asp:TextBox><asp:RequiredFieldValidator ForeColor="#CC0000" runat="server" id="RequiredFieldValidator3" controltovalidate="TextBox2" errormessage="Please enter your Last name!" />
              <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox2"
     ValidationExpression="[a-zA-Z ]*$" ErrorMessage="Enter a valid Last Name" />
-                   
-                 </div></div>
-           
+                 </div></div>         
             <div class="form-group " style="height: 109px">
             <asp:Label CssClass="col-lg-4 control-label" ID="Label5" runat="server" Text=" First Name:-"></asp:Label>
            <div class="col-lg-4">
